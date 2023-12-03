@@ -1,2 +1,5 @@
+moment = require('moment');
+
 date = new Date()
-console.log(date)
+formatedDate = moment(date).format('L')
+console.log(formatedDate)
